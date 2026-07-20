@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="The City According to the Algorithm — a research foundation on food-delivery labor, urban friction, and counter-mapping." name="description"/>
+<title>Yizhang Mu — The City According to the Algorithm</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="topbar">
+<a class="brand" href="#title">THE CITY ACCORDING TO THE ALGORITHM</a>
+<div aria-hidden="true" class="progress"><span id="progressBar"></span></div>
+<button aria-controls="sideNav" aria-expanded="false" class="menu-button" id="menuButton">Sections</button>
+</header>
+<nav aria-label="Section navigation" class="side-nav" id="sideNav"><a href="#title"><span>00</span><span>Title</span></a><a href="#questions"><span>01</span><span>Research Questions</span></a><a href="#keywords"><span>02</span><span>Keywords</span></a><a href="#fields"><span>03</span><span>Intersecting Fields</span></a><a href="#lineage"><span>04</span><span>Historical Lineage</span></a><a href="#community"><span>05</span><span>Community of Practice</span></a><a href="#situated"><span>06</span><span>Situated Technology</span></a><a href="#methods"><span>07</span><span>Methods</span></a><a href="#prototypes"><span>08</span><span>Computational Design Experiments</span></a><a href="#visual"><span>09</span><span>Visual Representation</span></a><a href="#argument"><span>10</span><span>Rhetorical Argument</span></a><a href="#capstone"><span>11</span><span>Potential Capstone</span></a><a href="#challenge"><span>12</span><span>The Challenge</span></a><a href="#exhibition"><span>13</span><span>Exhibition Components</span></a></nav>
+<main>
+<section class="hero" id="title">
+<div class="hero-inner">
+<div>
+<p class="kicker">Research Foundations + Project Outline</p>
+<p class="mono" style="margin:0 0 18px;color:#a84b35;font-size:12px;">Yizhang Mu · Columbia GSAPP · CDP 2026</p>
+<h1>The City<br/><span>According to</span><br/><em>the Algorithm</em></h1>
+<p class="sub">Mapping the hidden geography of food-delivery labor in New York City.</p><p class="hero-statement">A spatial investigation into the waiting, risk, access barriers, and unpaid time that disappear behind a platform’s estimated arrival time.</p>
+<div class="hero-meta"><span>Food-delivery labor</span><span>Urban friction</span><span>Counter-mapping</span></div>
+</div>
+<div aria-label="Conceptual comparison of a platform route and lived courier route" class="hero-visual">
+<svg aria-label="The smooth platform route is contrasted with a fragmented courier route." role="img" viewbox="0 0 720 720">
+<g fill="none" opacity=".18" stroke="white">
+<path d="M70 120H660M70 225H660M70 330H660M70 435H660M70 540H660M70 645H660"></path>
+<path d="M120 70V675M235 70V675M350 70V675M465 70V675M580 70V675"></path>
+</g>
+<path d="M105 590C260 460 420 305 615 130" fill="none" opacity=".35" stroke="white" stroke-dasharray="10 13" stroke-width="5"></path>
+<path d="M105 590C180 520 190 430 285 475S390 540 430 420S450 270 530 325S565 195 615 130" fill="none" stroke="#a84b35" stroke-width="9"></path>
+<g fill="#a84b35">
+<circle cx="285" cy="475" r="11"></circle><circle cx="430" cy="420" r="11"></circle><circle cx="530" cy="325" r="11"></circle>
+</g>
+<g fill="white">
+<circle cx="105" cy="590" r="17"></circle><circle cx="615" cy="130" r="17"></circle>
+</g>
+<g fill="white" font-family="Courier New" font-size="14">
+<text x="70" y="630">RESTAURANT</text><text x="575" y="100">CUSTOMER</text>
+<text x="246" y="451">WAIT</text><text x="396" y="455">TRAFFIC</text><text x="500" y="300">ACCESS</text>
+</g>
+<g transform="translate(250 90)">
+<rect fill="#a84b35" height="76" rx="38" width="210"></rect>
+<text fill="white" font-family="Courier New" font-size="24" text-anchor="middle" x="105" y="49">APP ETA</text>
+</g>
+</svg>
+</div>
+</div>
+</section><section id="questions">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">01</span><span class="section-name">RESEARCH QUESTIONS</span></div>
+<div>
+<p class="kicker">Research Questions</p>
+<h2>What disappears when the city is reduced to an estimated time?</h2>
+<p class="single-sentence">The project asks how platform interfaces, urban infrastructure, and labor regulation shape what counts as an efficient delivery.</p>
+</div>
+<div class="question-visual"><article><div class="big">L</div><h3>Labor</h3><p>How do delivery platforms redistribute waiting, risk, and unpaid time onto couriers?</p></article><article><div class="big">D</div><h3>Design</h3><p>How does the interface turn a complex urban journey into a smooth route and a single ETA?</p></article><article><div class="big">P</div><h3>Policy</h3><p>What evidence could inform future rules for pay, data access, transparency, and worker protections?</p></article><article><div class="big">E</div><h3>Ethics</h3><p>Can computational mapping expose algorithmic power without reproducing worker surveillance?</p></article></div>
+</div>
+</section><section class="section-soft" id="keywords">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">02</span><span class="section-name">KEYWORDS</span></div>
+<div>
+<p class="kicker">Keywords (5)</p>
+<h2>Five terms define the project’s research and design position.</h2>
+</div>
+<div class="keywords">
+<span>Algorithmic Management</span>
+<span>Platform Labor</span>
+<span>Spatial Evidence</span>
+<span>Urban Friction</span>
+<span>Counter-Mapping</span>
+</div>
+</div>
+</section><section class="section-soft" id="fields"><div class="section-grid"><div class="section-id"><span class="section-index">03</span><span class="section-name">INTERSECTING FIELDS</span></div><div><p class="kicker">Intersecting Fields</p><h2>The project sits between computational design, labor research, critical mapping, and urban policy.</h2><p class="single-sentence">No single discipline fully explains platform delivery: the project combines spatial analysis, interface critique, worker knowledge, and policy research.</p></div><div aria-label="Intersecting fields diagram" class="intersection">
+<div class="orbit o1">Computational Design</div>
+<div class="orbit o2">Critical Cartography</div>
+<div class="orbit o3">Labor Studies</div>
+<div class="orbit o4">Urban Mobility</div>
+<div class="orbit o5">Investigative Practice</div>
+<div class="center">THE CITY ACCORDING TO THE ALGORITHM</div>
+</div></div></section><section id="lineage">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">04</span><span class="section-name">HISTORICAL LINEAGE</span></div>
+<div>
+<p class="kicker">Historical Lineage</p>
+<h2>From maps that manage workers to maps that reveal worker experience.</h2>
+</div>
+<div class="lineage">
+<article>
+<span class="year">1900s</span>
+<h3>Time–Motion Studies</h3>
+<p>Labor is divided into measurable units.</p>
+</article>
+<article>
+<span class="year">1950s–80s</span>
+<h3>Logistics</h3>
+<p>Movement is optimized through prediction.</p>
+</article>
+<article>
+<span class="year">1990s–2000s</span>
+<h3>Digital Mapping</h3>
+<p>Location becomes a continuous data input.</p>
+</article>
+<article>
+<span class="year">2010s</span>
+<h3>Platform Labor</h3>
+<p>Apps coordinate work through ratings and time.</p>
+</article>
+<article>
+<span class="year">Now</span>
+<h3>Counter-Mapping</h3>
+<p>Workers map what operational systems omit.</p>
+</article>
+</div>
+</div>
+</section><section class="section-dark" id="community">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">05</span><span class="section-name">COMMUNITY OF PRACTICE</span></div>
+<div>
+<p class="kicker">Your Community of Practice</p>
+<h2>A field of investigators, labor researchers, organizers, and alternative-platform advocates.</h2>
+</div>
+<div aria-label="Community of practice network" class="practice-map">
+<svg aria-hidden="true" preserveaspectratio="none" viewbox="0 0 1000 650">
+<line x1="500" x2="150" y1="325" y2="120"></line>
+<line x1="500" x2="850" y1="325" y2="115"></line>
+<line x1="500" x2="160" y1="325" y2="545"></line>
+<line x1="500" x2="850" y1="325" y2="540"></line>
+<line x1="500" x2="500" y1="325" y2="105"></line>
+</svg>
+<div class="node n1"><strong>Forensic Architecture</strong><span>Spatial evidence / event reconstruction</span></div>
+<div class="node n2"><strong>Craig Gent</strong><span>Algorithmic management / invisible control</span></div>
+<div class="node n3"><strong>Trebor Scholz</strong><span>Platform cooperativism / worker ownership</span></div>
+<div class="node n4"><strong>Los Deliveristas Unidos</strong><span>Worker organizing / urban infrastructure</span></div>
+<div class="node n5"><strong>Data &amp; Society</strong><span>Technology / labor / policy research</span></div>
+<div class="node self"><strong>My Position</strong><span>Computational reconstruction of hidden delivery friction</span></div>
+</div>
+<p class="micro" style="grid-column:2;margin-top:14px">Community of practice: investigators, labor researchers, delivery-worker organizers, critical cartographers, and alternative-platform advocates. Audience: delivery workers, design researchers, policymakers, platform users, and the wider public.</p>
+<div class="community-subsection"><h3>Relationship to the Precedent Study</h3><p>Forensic Architecture informs the project’s use of reconstruction and spatial evidence. This work is a methodological fork: it shifts from disputed acts of state violence to the everyday operations of algorithmic labor, without treating the two as equivalent.</p><div class="comparison">
+<div class="head"><span>Precedent</span><span></span><span>This Project</span></div>
+<div class="row"><span>Space as evidence</span><span class="arrow">→</span><span>Routes and waiting as evidence</span></div>
+<div class="row"><span>Event reconstruction</span><span class="arrow">→</span><span>Delivery reconstruction</span></div>
+<div class="row"><span>Official narrative</span><span class="arrow">→</span><span>Platform efficiency narrative</span></div>
+<div class="row"><span>Invisible violence</span><span class="arrow">→</span><span>Invisible pressure, risk, and labor</span></div>
+<div class="row"><span>Maps, images, models</span><span class="arrow">→</span><span>Website, timeline, drawing, object</span></div>
+</div><p class="precedent-note">This project does not equate platform labor with border violence; it reinterprets spatial reconstruction as a method for examining everyday algorithmic control.</p></div></div>
+</section><section id="situated">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">06</span><span class="section-name">SITUATED TECHNOLOGY</span></div>
+<div>
+<p class="kicker">Situated Technology</p>
+<h2>Delivery technology is produced by a particular city, labor regime, street network, and body.</h2>
+</div>
+<div class="situated-stack">
+<div><small>01</small><span>Platform Interface</span><small>ETA / ratings / incentives</small></div>
+<div><small>02</small><span>New York Street Network</span><small>routes / signals / detours</small></div>
+<div><small>03</small><span>Delivery Infrastructure</span><small>bike lanes / parking / charging</small></div>
+<div><small>04</small><span>Labor Regulation</span><small>pay / access / platform rules</small></div>
+<div><small>05</small><span>Courier Body</span><small>risk / weather / fatigue</small></div>
+</div>
+<p class="micro" style="grid-column:2;margin-top:25px">Proposed site: Morningside Heights + West Harlem / citywide data context + street-level case study.</p>
+</div>
+</section><section class="section-soft" id="methods">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">07</span><span class="section-name">METHODS</span></div>
+<div>
+<p class="kicker">Methods</p>
+<h2>A mixed-method process combining public data, field observation, interface analysis, spatial reconstruction, and worker-centered research.</h2>
+</div>
+<div class="method-diagram"><article><div class="number">01</div><div><h3>Software + Techniques</h3><ul><li>HTML / CSS / JavaScript</li><li>D3.js + SVG</li><li>GeoJSON + interactive mapping</li></ul></div></article><article><div class="number">02</div><div><h3>Quantitative Data</h3><ul><li>Route geometry</li><li>Time categories</li><li>Bike lanes, collisions, and access conditions</li></ul></div></article><article><div class="number">03</div><div><h3>Qualitative Research</h3><ul><li>Field notes + photographs</li><li>Interface critique</li><li>Future interviews and participatory annotation</li></ul></div></article><article><div class="number">04</div><div><h3>Theoretical Approach</h3><ul><li>Algorithmic management</li><li>Situated technology</li><li>Critical cartography + spatial evidence</li></ul></div></article><article><div class="number">05</div><div><h3>Design Tactics</h3><ul><li>Paired platform / courier views</li><li>Expanded timelines</li><li>Counter-maps and annotated reconstruction</li></ul></div></article><article><div class="number">06</div><div><h3>Potential Forms</h3><ul><li>Interactive website</li><li>Investigative drawing</li><li>Physical or material experiment</li></ul></div></article></div>
+<div class="method-output">
+<span>Evidence Collection</span><b>→</b><span>Delivery Reconstruction</span><b>→</b><span>Map + Timeline + Physical Model</span>
+</div>
+<div class="method-subsection"><p class="kicker">Data + Site</p><h3>Morningside Heights and West Harlem as a street-level case study</h3><p>The project uses a citywide policy and labor context, then focuses field observation on Broadway, Amsterdam Avenue, restaurants, campus thresholds, and residential destinations.</p><figure class="case-area-map vector-map">
+<svg aria-label="Schematic study-area diagram of Morningside Heights and West Harlem" role="img" viewbox="0 0 1200 720">
+<rect fill="#e6e1d7" height="720" width="1200"></rect>
+<g fill="#c9c3b8" stroke="#f5f1e8" stroke-width="8">
+<path d="M0 0H210L180 720H0Z"></path>
+<path d="M305 0H545L525 720H270Z"></path>
+<path d="M635 0H900L930 720H610Z"></path>
+<path d="M1015 0H1200V720H1050Z"></path>
+</g>
+<g stroke="#f8f5ed" stroke-width="34">
+<line x1="0" x2="1200" y1="105" y2="105"></line>
+<line x1="0" x2="1200" y1="245" y2="245"></line>
+<line x1="0" x2="1200" y1="385" y2="385"></line>
+<line x1="0" x2="1200" y1="525" y2="525"></line>
+<line x1="0" x2="1200" y1="665" y2="665"></line>
+</g>
+<g fill="none" stroke="#11110f" stroke-width="5">
+<path d="M225 -20L205 740"></path>
+<path d="M585 -20L565 740"></path>
+<path d="M965 -20L995 740"></path>
+</g>
+<path d="M182 72L975 72L1028 675L158 675Z" fill="rgba(255,74,36,.10)" stroke="#a84b35" stroke-dasharray="16 12" stroke-width="6"></path>
+<g fill="#11110f" font-family="Courier New" font-size="17" font-weight="700">
+<text transform="rotate(-88 145 45)" x="145" y="45">BROADWAY</text>
+<text transform="rotate(-88 515 45)" x="515" y="45">AMSTERDAM AVE</text>
+<text transform="rotate(-87 1018 52)" x="1018" y="52">MORNINGSIDE DR</text>
+<text x="32" y="92">W 125TH ST</text>
+<text x="32" y="232">W 120TH ST</text>
+<text x="32" y="372">W 116TH ST</text>
+<text x="32" y="512">W 110TH ST</text>
+</g>
+<g>
+<circle cx="250" cy="330" fill="#a84b35" r="16"></circle><circle cx="250" cy="330" fill="#f7f4ed" r="6"></circle>
+<circle cx="580" cy="400" fill="#11110f" r="16"></circle><circle cx="580" cy="400" fill="#f7f4ed" r="6"></circle>
+<circle cx="830" cy="215" fill="#a84b35" r="16"></circle><circle cx="830" cy="215" fill="#f7f4ed" r="6"></circle>
+</g>
+<g fill="#11110f" font-family="Courier New" font-size="14">
+<text x="275" y="325">RESTAURANT EDGE</text>
+<text x="605" y="395">CAMPUS THRESHOLD</text>
+<text x="855" y="210">RESIDENTIAL DESTINATION</text>
+</g>
+<g transform="translate(830 585)">
+<rect fill="#11110f" height="90" width="315"></rect>
+<text fill="#a84b35" font-family="Courier New" font-size="12" x="18" y="29">STUDY AREA DIAGRAM</text>
+<text fill="#f7f4ed" font-family="Courier New" font-size="11" x="18" y="53">BROADWAY / AMSTERDAM / 110–125TH</text>
+<text fill="#a8a39a" font-family="Courier New" font-size="10" x="18" y="73">SCHEMATIC — NOT A GIS BASE MAP</text>
+</g>
+</svg>
+<figcaption>Purpose-built study-area diagram. No unrelated project image is used.</figcaption>
+</figure><div class="case-area-metrics">
+<article><span>01</span><strong>Street movement</strong><p>Broadway and Amsterdam organize north–south delivery circulation.</p></article>
+<article><span>02</span><strong>Campus thresholds</strong><p>Entrances, gates, and interior paths create access time not visible in route distance.</p></article>
+<article><span>03</span><strong>Mixed destinations</strong><p>Restaurants, dormitories, offices, and residential buildings produce different forms of waiting.</p></article>
+</div></div><div class="method-subsection"><p class="kicker">Evidence Protocol</p><h3>What will be observed, recorded, and ethically excluded</h3><p>Field material will document restaurant waiting, street conflict, and building access. Worker routes or screenshots will be used only with consent, anonymization, and clear control over publication.</p><div class="evidence-grid evidence-framework">
+<article class="evidence-plan">
+<div class="evidence-status">TO COLLECT / 01</div>
+<svg aria-label="Restaurant waiting evidence diagram" role="img" viewbox="0 0 420 300">
+<rect fill="none" height="205" stroke="#11110f" stroke-width="4" width="350" x="35" y="45"></rect>
+<rect fill="#d8d2c7" height="205" width="145" x="240" y="45"></rect>
+<line stroke="#11110f" stroke-width="4" x1="240" x2="240" y1="45" y2="250"></line>
+<path d="M240 145h-38" stroke="#a84b35" stroke-width="8"></path>
+<g fill="#a84b35"><circle cx="100" cy="110" r="12"></circle><circle cx="145" cy="145" r="12"></circle><circle cx="118" cy="193" r="12"></circle></g>
+<text font-family="Courier New" font-size="13" x="55" y="275">WAITING / QUEUE / PICKUP DOOR</text>
+</svg>
+<h3>Restaurant Threshold</h3>
+<p>Add photographs only after documenting courier position, queue, pickup entrance, shelter, and time.</p>
+</article>
+<article class="evidence-plan">
+<div class="evidence-status">TO COLLECT / 02</div>
+<svg aria-label="Street conflict evidence diagram" role="img" viewbox="0 0 420 300">
+<g fill="#d8d2c7"><rect height="105" width="150" x="0" y="0"></rect><rect height="105" width="150" x="270" y="0"></rect><rect height="105" width="150" x="0" y="195"></rect><rect height="105" width="150" x="270" y="195"></rect></g>
+<path d="M0 150H420M210 0V300" stroke="#11110f" stroke-width="4"></path>
+<path d="M175 300V0" stroke="#a84b35" stroke-dasharray="18 10" stroke-width="10"></path>
+<path d="M80 150C145 150 160 130 190 105S250 70 335 70" fill="none" stroke="#11110f" stroke-width="7"></path>
+<circle cx="190" cy="105" fill="#a84b35" r="16"></circle>
+<text font-family="Courier New" font-size="13" x="210" y="103">CONFLICT / SIGNAL / TURN</text>
+</svg>
+<h3>Street Friction</h3>
+<p>Record crossings, turns, blocked bike lanes, curb access, weather exposure, and observed delay.</p>
+</article>
+<article class="evidence-plan">
+<div class="evidence-status">TO COLLECT / 03</div>
+<svg aria-label="Building access evidence diagram" role="img" viewbox="0 0 420 300">
+<rect fill="#d8d2c7" height="225" stroke="#11110f" stroke-width="4" width="304" x="58" y="35"></rect>
+<rect fill="#f7f4ed" height="135" stroke="#11110f" stroke-width="4" width="90" x="165" y="125"></rect>
+<path d="M35 250H165M255 250H390" stroke="#11110f" stroke-width="4"></path>
+<path d="M210 250V178" stroke="#a84b35" stroke-width="9"></path>
+<g fill="none" stroke="#11110f" stroke-width="3"><circle cx="320" cy="90" r="24"></circle><path d="M320 66v48M296 90h48"></path></g>
+<text font-family="Courier New" font-size="13" x="92" y="285">DOOR / BUZZER / ELEVATOR / HANDOFF</text>
+</svg>
+<h3>Building Access</h3>
+<p>Document the actual entrance sequence instead of using a generic campus photograph.</p>
+</article>
+<div aria-label="Analytical delivery-interface diagram" class="interface-reconstruction">
+<div class="phone-status"><span>9:41</span><span>● ● ●</span></div>
+<div class="interface-map">
+<svg aria-label="Simplified delivery route interface" role="img" viewbox="0 0 360 250">
+<path d="M42 202C96 160 130 176 172 126S250 84 320 48" fill="none" stroke="#11110f" stroke-width="6"></path>
+<circle cx="42" cy="202" fill="#11110f" r="11"></circle>
+<circle cx="320" cy="48" fill="#a84b35" r="11"></circle>
+<g fill="#c9c4b9">
+<rect height="42" width="72" x="58" y="34"></rect><rect height="58" width="62" x="156" y="36"></rect>
+<rect height="48" width="86" x="244" y="152"></rect><rect height="42" width="54" x="56" y="118"></rect>
+</g>
+</svg>
+</div>
+<div class="interface-copy">
+<span class="interface-label">PLATFORM VIEW</span>
+<strong>ETA</strong>
+<p>Analyze route, progress, status, and compressed time as a visual system.</p>
+<div class="interface-progress"><span></span></div>
+</div>
+<div class="interface-warning">ANALYTICAL DIAGRAM — NOT A COPIED PLATFORM SCREEN</div>
+</div>
+</div></div></div>
+</section><section class="section-dark" id="prototypes">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">08</span><span class="section-name">COMPUTATIONAL DESIGN EXPERIMENTS</span></div>
+<div>
+<p class="kicker">Computational Design Experiments</p>
+<h2>Authored diagrams and interactive prototypes test how hidden labor might become visible.</h2>
+</div>
+<div class="prototype-tabs">
+<div aria-label="Prototype selector" class="tab-buttons" role="tablist">
+<button class="active" data-tab="route" role="tab">01 Route / Lived Route</button>
+<button data-tab="time" role="tab">02 Hidden Time</button>
+<button data-tab="counter" role="tab">03 Counter-Map</button>
+</div>
+<div class="tab-panel active" id="route" role="tabpanel">
+<div class="panel-grid">
+<div class="visual">
+<svg aria-label="Frictionless route versus lived route" viewbox="0 0 800 500">
+<g opacity=".18" stroke="white"><path d="M30 100H770M30 200H770M30 300H770M30 400H770"></path><path d="M120 30V470M260 30V470M400 30V470M540 30V470M680 30V470"></path></g>
+<path d="M90 410C300 310 475 220 705 85" fill="none" opacity=".35" stroke="white" stroke-dasharray="12 12" stroke-width="5"></path>
+<path d="M90 410C170 350 205 270 290 330S405 425 460 320S480 155 585 225S640 125 705 85" fill="none" stroke="#a84b35" stroke-width="9"></path>
+<g fill="#a84b35"><circle cx="290" cy="330" r="10"></circle><circle cx="460" cy="320" r="10"></circle><circle cx="585" cy="225" r="10"></circle></g>
+</svg>
+</div>
+<div class="copy">
+<span class="badge">Conceptual Prototype</span>
+<h3 style="font-size:38px;margin-top:22px">Frictionless Route / Lived Route</h3>
+<p>Compare the platform’s optimized line with a route interrupted by waiting, risk, detours, and access barriers.</p>
+</div>
+</div>
+</div>
+<div class="tab-panel" id="time" role="tabpanel">
+<div class="panel-grid">
+<div class="visual">
+<div aria-label="Simulated eighteen minute delivery time breakdown" class="time-strip"><div style="--w:20%"><span>MOVEMENT</span><b>—</b></div><div style="--w:20%"><span>PICKUP WAIT</span><b>—</b></div><div style="--w:20%"><span>STREET FRICTION</span><b>—</b></div><div style="--w:20%"><span>BUILDING ACCESS</span><b>—</b></div><div style="--w:20%"><span>CUSTOMER HANDOFF</span><b>—</b></div></div>
+</div>
+<div class="copy">
+<span class="badge">Format Prototype / Data Pending</span>
+<h3 style="font-size:38px;margin-top:22px">Hidden Time Translator</h3>
+<p>A proposed translator that expands an ETA into movement, waiting, risk, access, and handoff. Durations remain blank until observed or consentfully provided.</p>
+</div>
+</div>
+</div>
+<div class="tab-panel" id="counter" role="tabpanel">
+<div class="panel-grid">
+<div class="visual">
+<svg aria-label="Courier counter-map concept" viewbox="0 0 800 500">
+<g fill="none" opacity=".17" stroke="white">
+<path d="M55 80L720 420M80 430L710 65M50 180H750M50 330H750M210 40V460M410 40V460M610 40V460"></path>
+</g>
+<g font-family="Courier New" font-size="12">
+<g transform="translate(130 125)"><circle fill="#a84b35" r="19"></circle><text fill="white" x="30" y="5">SLOW RESTAURANT</text></g>
+<g transform="translate(530 145)"><rect fill="#8b927d" height="34" width="34" x="-17" y="-17"></rect><text fill="white" x="30" y="5">CHARGING / REST</text></g>
+<g transform="translate(315 305)"><path d="M0-20L20 18H-20Z" fill="#a84b35"></path><text fill="white" x="32" y="5">UNSAFE INTERSECTION</text></g>
+<g transform="translate(615 360)"><circle fill="none" r="19" stroke="white" stroke-width="4"></circle><text fill="white" x="30" y="5">ACCESS PROBLEM</text></g>
+</g>
+</svg>
+</div>
+<div class="copy">
+<span class="badge">Proposed Data Structure</span>
+<h3 style="font-size:38px;margin-top:22px">Courier Counter-Map</h3>
+<p>A future worker-controlled map of unsafe intersections, slow restaurants, access problems, parking, restrooms, and charging locations.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="experiment-subsection"><p class="kicker">Proposed Experiment 04</p><h3>Single-Delivery Reconstruction</h3><p>The reconstruction format links a route diagram to an evidence timeline. Geometry, durations, and friction nodes remain pending until research produces defensible evidence.</p><div class="delivery-reconstruction">
+<div class="delivery-map-panel vector-delivery-map">
+<svg aria-label="Proposed delivery reconstruction diagram" preserveaspectratio="none" viewbox="0 0 1000 760">
+<rect fill="#e5e0d6" height="760" width="1000"></rect>
+<g fill="#c8c1b5" stroke="#f7f4ed" stroke-width="10">
+<rect height="150" width="205" x="0" y="0"></rect><rect height="150" width="250" x="305" y="0"></rect><rect height="150" width="345" x="655" y="0"></rect>
+<rect height="190" width="205" x="0" y="250"></rect><rect height="190" width="250" x="305" y="250"></rect><rect height="190" width="345" x="655" y="250"></rect>
+<rect height="220" width="205" x="0" y="540"></rect><rect height="220" width="250" x="305" y="540"></rect><rect height="220" width="345" x="655" y="540"></rect>
+</g>
+<g fill="none" stroke="#11110f" stroke-width="4"><path d="M255 0V760"></path><path d="M605 0V760"></path><path d="M0 200H1000"></path><path d="M0 490H1000"></path></g>
+<path class="platform-line" d="M120 650C310 545 565 345 855 95"></path>
+<path class="lived-line" d="M120 650C225 615 210 520 350 545S480 500 470 405S565 335 640 365S735 205 855 95"></path>
+<g class="delivery-node pickup" transform="translate(120 650)"><circle r="18"></circle><text x="28" y="6">PICKUP</text></g>
+<g class="delivery-node wait" transform="translate(350 545)"><circle r="14"></circle><text x="22" y="-6">WAITING</text></g>
+<g class="delivery-node traffic" transform="translate(470 405)"><circle r="14"></circle><text x="22" y="6">STREET CONFLICT</text></g>
+<g class="delivery-node access" transform="translate(640 365)"><circle r="14"></circle><text x="-185" y="-20">ACCESS SEQUENCE</text></g>
+<g class="delivery-node dropoff" transform="translate(855 95)"><circle r="18"></circle><text x="-155" y="-18">DROPOFF</text></g>
+<g transform="translate(620 620)">
+<rect fill="#11110f" height="100" width="340"></rect>
+<text fill="#a84b35" font-family="Courier New" font-size="12" x="18" y="30">PROPOSED RECONSTRUCTION FORMAT</text>
+<text fill="#f7f4ed" font-family="Courier New" font-size="11" x="18" y="55">NO VALUES CLAIMED AS OBSERVED</text>
+<text fill="#aaa69d" font-family="Courier New" font-size="10" x="18" y="78">POPULATE AFTER FIELD / WORKER RESEARCH</text>
+</g>
+</svg>
+<div class="map-legend">
+<span><i class="legend-platform"></i>Platform abstraction</span>
+<span><i class="legend-lived"></i>Lived route layer</span>
+<span><i class="legend-friction"></i>Evidence node</span>
+</div>
+</div>
+<div class="delivery-evidence-panel">
+<div class="delivery-summary">
+<span>PLATFORM ETA</span>
+<strong>— —</strong>
+<small>DATA PENDING / FORMAT PROTOTYPE</small>
+</div>
+<ol class="delivery-timeline">
+<li><time>STEP 01</time><div><b>Order accepted</b><span>Record the platform timestamp and initial route claim.</span></div></li>
+<li><time>STEP 02</time><div><b>Restaurant approach</b><span>Measure movement, parking, and threshold conditions.</span></div></li>
+<li class="friction"><time>STEP 03</time><div><b>Pickup waiting</b><span>Add duration only when observed or voluntarily provided.</span></div></li>
+<li><time>STEP 04</time><div><b>Street movement</b><span>Annotate signals, detours, weather, and conflicts.</span></div></li>
+<li class="friction"><time>STEP 05</time><div><b>Building access</b><span>Record entrance search, buzzer, elevator, stairs, and handoff.</span></div></li>
+<li><time>STEP 06</time><div><b>Delivery completed</b><span>Compare lived sequence with the platform representation.</span></div></li>
+</ol>
+</div>
+</div><div class="delivery-time-breakdown pending-breakdown">
+<div style="--share:16.7%"><span>APP CLAIM</span><b>—</b></div>
+<div class="hidden" style="--share:16.7%"><span>PICKUP WAIT</span><b>—</b></div>
+<div style="--share:16.7%"><span>STREET TIME</span><b>—</b></div>
+<div class="hidden" style="--share:16.7%"><span>DETOUR / RISK</span><b>—</b></div>
+<div style="--share:16.7%"><span>ACCESS TIME</span><b>—</b></div>
+<div class="hidden" style="--share:16.7%"><span>UNPAID TIME</span><b>—</b></div>
+</div></div></div>
+</section><section id="visual">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">09</span><span class="section-name">VISUAL REPRESENTATION</span></div>
+<div>
+<p class="kicker">Visual Representation</p>
+<h2>The visual language moves from platform clarity to street-level complexity.</h2>
+</div>
+<div class="visual-language">
+<article>
+<span class="mode">Platform View</span>
+<div class="word-list">
+<span>Clean</span><span>Smooth</span><span>Geometric</span><span>Single ETA</span><span>No Body</span>
+</div>
+</article>
+<article>
+<span class="mode">Courier View</span>
+<div class="word-list">
+<span>Interrupted</span><span>Annotated</span><span>Uncertain</span><span>Expanded Time</span><span>Bodily Risk</span>
+</div>
+<div aria-hidden="true" class="courier-lines">
+<span style="width:72%;left:2%;top:10%;transform:rotate(8deg)"></span>
+<span style="width:54%;left:18%;top:38%;transform:rotate(-12deg)"></span>
+<span style="width:80%;left:8%;top:66%;transform:rotate(4deg)"></span>
+</div>
+</article>
+</div>
+</div>
+</section><section class="section-soft" id="argument">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">10</span><span class="section-name">RHETORICAL ARGUMENT</span></div>
+<div>
+<p class="kicker">Rhetorical Argument</p>
+<h2>Design is not neutral when it decides what the public can see.</h2>
+</div>
+<div class="argument">Platform efficiency does not eliminate friction. It <span>redistributes friction onto workers</span> and makes that friction invisible.</div>
+</div>
+</section><section id="capstone">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">11</span><span class="section-name">POTENTIAL CAPSTONE</span></div>
+<div>
+<p class="kicker">Potential Capstone Project</p>
+<h2>A possible worker-centered investigative atlas and counter-mapping toolkit.</h2>
+</div>
+<div class="capstone-map">
+<div><b>01</b><span>Interactive delivery reconstruction</span></div>
+<div><b>02</b><span>Worker-led route annotation</span></div>
+<div><b>03</b><span>Hidden-time visualization</span></div>
+<div><b>04</b><span>Physical investigative datascape</span></div>
+</div>
+<p class="capstone-warning">The final form remains open. The next stage is to understand the problem through relationships, evidence, and ethical protocols before proposing a solution.</p>
+</div>
+</section><section class="section-dark" id="challenge">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">12</span><span class="section-name">THE CHALLENGE</span></div>
+<div>
+<p class="kicker">The Challenge</p>
+<h2>The project’s ambition currently exceeds its access to data and worker communities.</h2>
+</div>
+<div class="challenge-grid">
+<article><div class="index">01</div><h3>Data Access</h3><p>Platform systems are proprietary; individual routes raise privacy concerns.</p></article>
+<article><div class="index">02</div><h3>Relationships</h3><p>The project must not speak for couriers without worker participation.</p></article>
+<article><div class="index">03</div><h3>Technical Skills</h3><p>Routing, temporal data, interactive mapping, and privacy-preserving visualization require development.</p></article>
+<article><div class="index">04</div><h3>Representation</h3><p>Worker experience must not become another extractive or abstract dataset.</p></article>
+</div>
+<p class="micro" style="grid-column:2;margin-top:22px;color:#fff">Next step: public data + field observation + small prototypes + relationship-building.</p>
+</div>
+</section><section class="section-dark" id="exhibition"><div class="section-grid"><div class="section-id"><span class="section-index">13</span><span class="section-name">EXHIBITION COMPONENTS</span></div><div><p class="kicker">Beyond the Screen</p><h2>The project is presented as a printed spatial argument, a material installation, and an optional interactive screen.</h2><p class="single-sentence">The exhibition translates algorithmic delivery from a screen-based abstraction into a sectional drawing, a bodily field of delay, and an interactive research interface.</p></div><div class="exhibition-components"><article class="exhibition-card drawing-card"><span class="component-number">01</span><h3>Printed Vertical Drawing</h3><h4>A Delivery in Section</h4><p>A tall investigative section reconstructing one delivery across restaurant, street, bicycle lane, building entrance, elevator, hallway, and apartment threshold. The drawing reveals that delay is an accumulation of spatial transitions.</p><div class="component-meta"><span>Format: vertical printed drawing</span><span>Proposed size: 36 × 72 in</span><span>Location: Avery 100 track</span><span>Media: map, section, timeline, evidence annotations</span></div><div class="component-sketch"><svg aria-label="Conceptual sketch of A Delivery in Section" role="img" viewbox="0 0 620 700">
+<rect fill="#f3efe6" height="700" width="620"></rect>
+<g fill="none" stroke="#171714" stroke-width="3">
+<path d="M80 85H520V610H80Z"></path><path d="M80 175H520M80 265H520M80 355H520M80 445H520M80 535H520"></path>
+<path d="M170 85V610M430 85V610"></path></g>
+<g fill="#d4cec2"><rect height="84" width="84" x="83" y="88"></rect><rect height="84" width="254" x="173" y="178"></rect>
+<rect height="84" width="84" x="433" y="268"></rect><rect height="84" width="84" x="83" y="448"></rect><rect height="69" width="254" x="173" y="538"></rect></g>
+<path d="M122 575L205 540L205 485L300 445L300 395L470 350L470 300L385 265L385 215L250 175L250 125L480 105" fill="none" stroke="#a84b35" stroke-width="8"></path>
+<g fill="#171714" stroke="#f3efe6" stroke-width="3"><circle cx="122" cy="575" r="11"></circle><circle cx="205" cy="485" r="9"></circle>
+<circle cx="300" cy="395" r="9"></circle><circle cx="470" cy="300" r="9"></circle><circle cx="385" cy="215" r="9"></circle><circle cx="250" cy="125" r="9"></circle><circle cx="480" cy="105" r="11"></circle></g>
+<g fill="#171714" font-family="Courier New" font-size="13"><text x="92" y="645">RESTAURANT → STREET → ACCESS → INTERIOR → HANDOFF</text>
+<text x="95" y="66">ONE ORDER / MANY THRESHOLDS</text></g>
+</svg></div></article><article class="exhibition-card material-card"><span class="component-number">02</span><h3>Material–Spatial Gesture</h3><h4>The Delay Curtain</h4><p>A walk-through field of transparent strips, printed evidence, clips, and calibrated metal weights. Strip length represents delay duration; material and annotation indicate friction category; weight translates accumulated labor burden into physical resistance.</p><div class="component-meta"><span>Form: walk-through installation</span><span>Materials: clear strips, thread, clips, steel weights</span><span>Data mapping: length = duration; weight = burden</span><span>Experience: visitors move through the delays</span></div><div class="component-sketch"><svg aria-label="Conceptual sketch of The Delay Curtain" role="img" viewbox="0 0 620 700">
+<rect fill="#f3efe6" height="700" width="620"></rect>
+<g fill="none" stroke="#171714" stroke-width="6"><path d="M75 110H545M75 110V575M545 110V575"></path><path d="M75 110L145 65H560L545 110"></path></g>
+<g stroke-width="3">
+<line stroke="#a49f96" x1="115" x2="115" y1="110" y2="500"></line><line stroke="#a84b35" x1="155" x2="155" y1="110" y2="430"></line>
+<line stroke="#171714" x1="195" x2="195" y1="110" y2="550"></line><line stroke="#a49f96" x1="235" x2="235" y1="110" y2="390"></line>
+<line stroke="#a84b35" x1="275" x2="275" y1="110" y2="520"></line><line stroke="#171714" x1="315" x2="315" y1="110" y2="460"></line>
+<line stroke="#a49f96" x1="355" x2="355" y1="110" y2="575"></line><line stroke="#a84b35" x1="395" x2="395" y1="110" y2="410"></line>
+<line stroke="#171714" x1="435" x2="435" y1="110" y2="535"></line><line stroke="#a49f96" x1="475" x2="475" y1="110" y2="470"></line>
+<line stroke="#a84b35" x1="515" x2="515" y1="110" y2="560"></line></g>
+<g fill="#171714">
+<rect height="48" width="26" x="102" y="500"></rect><rect height="70" width="26" x="142" y="430"></rect><rect height="35" width="26" x="182" y="550"></rect>
+<rect height="90" width="26" x="222" y="390"></rect><rect height="55" width="26" x="262" y="520"></rect><rect height="80" width="26" x="302" y="460"></rect>
+<rect height="30" width="26" x="342" y="575"></rect><rect height="95" width="26" x="382" y="410"></rect><rect height="45" width="26" x="422" y="535"></rect>
+<rect height="75" width="26" x="462" y="470"></rect><rect height="35" width="26" x="502" y="560"></rect></g>
+<g fill="#171714" font-family="Courier New" font-size="13"><text x="92" y="635">LENGTH = DELAY / WEIGHT = LABOR BURDEN</text>
+<text x="92" y="665">THE VISITOR WALKS THROUGH HIDDEN TIME</text></g>
+</svg></div></article><article class="exhibition-card screen-card"><span class="component-number">03</span><h3>Optional Second Screen</h3><h4>Optional Interactive Second Screen</h4><p>An optional screen may show an interactive map, visualization, demo, or video during the final review. It supports the printed drawing and material–spatial gesture but is not a required submission component.</p><div class="component-meta"><span>Format: web visualization or short video</span><span>Interaction: route, timeline, evidence categories</span><span>Purpose: comparison and explanation</span><span>Status: optional final-review component</span></div><div class="component-sketch"><svg aria-label="Interactive second screen concept" role="img" viewbox="0 0 620 360">
+<rect fill="#f3efe6" height="360" width="620"></rect>
+<rect fill="none" height="245" rx="7" stroke="#171714" stroke-width="5" width="504" x="58" y="48"></rect>
+<rect fill="#d4cec2" height="200" width="295" x="78" y="70"></rect>
+<path d="M105 238C165 190 205 220 255 155S320 125 350 95" fill="none" stroke="#a84b35" stroke-width="7"></path>
+<g fill="#171714"><circle cx="105" cy="238" r="9"></circle><circle cx="255" cy="155" r="9"></circle><circle cx="350" cy="95" r="9"></circle></g>
+<g stroke="#171714" stroke-width="3"><line x1="400" x2="530" y1="95" y2="95"></line><line x1="400" x2="500" y1="130" y2="130"></line>
+<line x1="400" x2="545" y1="165" y2="165"></line><line x1="400" x2="475" y1="200" y2="200"></line><line x1="400" x2="520" y1="235" y2="235"></line></g>
+<path d="M260 295H360L380 325H240Z" fill="#171714"></path>
+</svg></div></article></div><div class="submission-panel final-checklist"><h3>Final Review Requirements</h3><div class="submission-row"><strong>REQUIRED</strong><span>Website with the final presentation based on the Research Foundations + Project Outline assignment.</span></div><div class="submission-row"><strong>REQUIRED</strong><span>Printed drawing pinned up in Avery 100.</span></div><div class="submission-row"><strong>REQUIRED</strong><span>Material–spatial gesture in place in Avery 100.</span></div><div class="submission-row"><strong>AUGUST 5 · 9:00 AM</strong><span>Presentation at the final review is required.</span></div><div class="submission-row"><strong>OPTIONAL</strong><span>A second screen may be used to show interactive demos, visualizations, or videos during the final review.</span></div><div class="submission-row"><strong>GRADING</strong><span>The final grade will be based on the final presentation.</span></div></div></div></section><section class="references" id="references">
+<div class="section-grid">
+<div class="section-id"><span class="section-index">A</span><span class="section-name">REFERENCES</span></div>
+<div>
+<p class="kicker">Selected Research Foundations</p>
+<h2 style="font-size:clamp(38px,5vw,72px)">Sources to support the next draft.</h2>
+</div>
+<div class="reference-list">
+<a href="https://www.nyc.gov/site/dca/workers/Delivery-Worker-Public-Hearing-Minimum-Pay-Rate.page" rel="noreferrer" target="_blank"><span>01</span><span>NYC DCWP — App-based restaurant delivery worker study and pay regulation materials</span><span>Official source ↗</span></a>
+<a href="https://forensic-architecture.org/" rel="noreferrer" target="_blank"><span>02</span><span>Forensic Architecture — investigations and spatial evidence methods</span><span>Practice ↗</span></a>
+<a href="https://datasociety.net/wp-content/uploads/2019/02/DS_Algorithmic_Management_Explainer.pdf" rel="noreferrer" target="_blank"><span>03</span><span>Data &amp; Society — Algorithmic Management in the Workplace</span><span>Research ↗</span></a>
+<a href="https://www.workersjustice.org/en/ldu" rel="noreferrer" target="_blank"><span>04</span><span>Los Deliveristas Unidos — New York delivery-worker organizing</span><span>Community ↗</span></a>
+</div>
+</div>
+</section></main>
+<footer>
+<span>Yizhang Mu / Columbia GSAPP / CDP / 2026</span>
+<span>Research Foundations + Project Outline · Final Review</span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
